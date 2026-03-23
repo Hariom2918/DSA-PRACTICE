@@ -1,0 +1,612 @@
+﻿> Task :gradle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle:compileKotlin UP-TO-DATE
+> Task :gradle:compileJava NO-SOURCE
+> Task :gradle:compileGroovy NO-SOURCE
+> Task :gradle:pluginDescriptors UP-TO-DATE
+> Task :gradle:processResources UP-TO-DATE
+> Task :gradle:classes UP-TO-DATE
+> Task :gradle:jar UP-TO-DATE
+> Task :app:ReleaseMinSdkCheck
+> Task :app:compileFlutterBuildRelease
+> Task :app:packJniLibsflutterBuildRelease
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:configureCMakeRelease[arm64-v8a]
+> Task :app:buildCMakeRelease[arm64-v8a]
+> Task :app:configureCMakeRelease[armeabi-v7a]
+> Task :app:buildCMakeRelease[armeabi-v7a]
+> Task :app:configureCMakeRelease[x86_64]
+> Task :app:buildCMakeRelease[x86_64]
+> Task :app:mergeReleaseJniLibFolders
+> Task :audioplayers_android:preBuild UP-TO-DATE
+> Task :audioplayers_android:preReleaseBuild UP-TO-DATE
+> Task :audioplayers_android:mergeReleaseJniLibFolders
+> Task :audioplayers_android:mergeReleaseNativeLibs NO-SOURCE
+> Task :device_info_plus:preBuild UP-TO-DATE
+> Task :device_info_plus:preReleaseBuild UP-TO-DATE
+> Task :audioplayers_android:copyReleaseJniLibsProjectOnly
+> Task :device_info_plus:mergeReleaseJniLibFolders
+> Task :device_info_plus:mergeReleaseNativeLibs NO-SOURCE
+> Task :device_info_plus:copyReleaseJniLibsProjectOnly
+> Task :flutter_local_notifications:preBuild UP-TO-DATE
+> Task :flutter_local_notifications:preReleaseBuild UP-TO-DATE
+> Task :flutter_local_notifications:mergeReleaseJniLibFolders
+> Task :flutter_local_notifications:mergeReleaseNativeLibs NO-SOURCE
+> Task :flutter_plugin_android_lifecycle:preBuild UP-TO-DATE
+> Task :flutter_local_notifications:copyReleaseJniLibsProjectOnly
+> Task :flutter_plugin_android_lifecycle:preReleaseBuild UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:mergeReleaseJniLibFolders
+> Task :flutter_plugin_android_lifecycle:mergeReleaseNativeLibs NO-SOURCE
+> Task :image_picker_android:preBuild UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:copyReleaseJniLibsProjectOnly
+> Task :image_picker_android:preReleaseBuild UP-TO-DATE
+> Task :image_picker_android:mergeReleaseJniLibFolders
+> Task :image_picker_android:mergeReleaseNativeLibs NO-SOURCE
+> Task :image_picker_android:copyReleaseJniLibsProjectOnly
+> Task :path_provider_android:preBuild UP-TO-DATE
+> Task :path_provider_android:preReleaseBuild UP-TO-DATE
+> Task :path_provider_android:mergeReleaseJniLibFolders
+> Task :path_provider_android:mergeReleaseNativeLibs NO-SOURCE
+> Task :shared_preferences_android:preBuild UP-TO-DATE
+> Task :shared_preferences_android:preReleaseBuild UP-TO-DATE
+> Task :path_provider_android:copyReleaseJniLibsProjectOnly
+> Task :shared_preferences_android:mergeReleaseJniLibFolders
+> Task :shared_preferences_android:mergeReleaseNativeLibs NO-SOURCE
+> Task :sqlite3_flutter_libs:preBuild UP-TO-DATE
+> Task :sqlite3_flutter_libs:preReleaseBuild UP-TO-DATE
+> Task :shared_preferences_android:copyReleaseJniLibsProjectOnly
+> Task :sqlite3_flutter_libs:mergeReleaseJniLibFolders
+> Task :sqlite3_flutter_libs:mergeReleaseNativeLibs NO-SOURCE
+> Task :vibration:preBuild UP-TO-DATE
+> Task :sqlite3_flutter_libs:copyReleaseJniLibsProjectOnly
+> Task :vibration:preReleaseBuild UP-TO-DATE
+> Task :vibration:mergeReleaseJniLibFolders
+> Task :vibration:mergeReleaseNativeLibs NO-SOURCE
+> Task :workmanager_android:preBuild UP-TO-DATE
+> Task :workmanager_android:preReleaseBuild UP-TO-DATE
+> Task :vibration:copyReleaseJniLibsProjectOnly
+> Task :workmanager_android:mergeReleaseJniLibFolders
+> Task :workmanager_android:mergeReleaseNativeLibs NO-SOURCE
+> Task :workmanager_android:copyReleaseJniLibsProjectOnly
+> Task :audioplayers_android:prepareReleaseArtProfile
+> Task :device_info_plus:prepareReleaseArtProfile
+> Task :flutter_local_notifications:prepareReleaseArtProfile UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:prepareReleaseArtProfile UP-TO-DATE
+> Task :image_picker_android:prepareReleaseArtProfile UP-TO-DATE
+> Task :path_provider_android:prepareReleaseArtProfile UP-TO-DATE
+> Task :shared_preferences_android:prepareReleaseArtProfile UP-TO-DATE
+> Task :sqlite3_flutter_libs:prepareReleaseArtProfile UP-TO-DATE
+> Task :vibration:prepareReleaseArtProfile
+> Task :workmanager_android:prepareReleaseArtProfile UP-TO-DATE
+> Task :audioplayers_android:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :audioplayers_android:generateReleaseResValues
+> Task :app:mergeReleaseArtProfile
+> Task :audioplayers_android:generateReleaseResources
+> Task :audioplayers_android:packageReleaseResources
+> Task :app:expandReleaseL8ArtProfileWildcards
+> Task :device_info_plus:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :device_info_plus:generateReleaseResValues
+> Task :audioplayers_android:javaPreCompileRelease
+> Task :device_info_plus:generateReleaseResources
+> Task :device_info_plus:packageReleaseResources
+> Task :device_info_plus:javaPreCompileRelease
+> Task :flutter_local_notifications:generateReleaseResValues
+> Task :flutter_local_notifications:generateReleaseResources
+> Task :device_info_plus:parseReleaseLocalResources
+> Task :audioplayers_android:parseReleaseLocalResources
+> Task :flutter_local_notifications:packageReleaseResources
+> Task :flutter_local_notifications:javaPreCompileRelease
+> Task :flutter_local_notifications:parseReleaseLocalResources
+> Task :flutter_plugin_android_lifecycle:generateReleaseResValues
+> Task :flutter_plugin_android_lifecycle:generateReleaseResources
+> Task :flutter_plugin_android_lifecycle:packageReleaseResources
+> Task :device_info_plus:generateReleaseRFile
+> Task :audioplayers_android:generateReleaseRFile
+> Task :flutter_local_notifications:generateReleaseRFile
+> Task :flutter_plugin_android_lifecycle:parseReleaseLocalResources
+
+> Task :app:mergeReleaseNativeLibs
+2 files found for path 'lib/arm64-v8a/libsqlite3.so'. This version of the Android Gradle Plugin chooses the file from the app or dynamic-feature module, but this can cause unexpected behavior or errors at runtime. Future versions of the Android Gradle Plugin may throw an error in this case.
+Inputs:
+ - C:\Users\hario\OneDrive\Desktop\HELLSING\build\app\intermediates\merged_jni_libs\release\mergeReleaseJniLibFolders\out\arm64-v8a\libsqlite3.so
+ - C:\Users\hario\.gradle\caches\8.13\transforms\70015bcf4acec37b7cb2bf72dc462a69\transformed\sqlite3-native-library-3.52.0\jni\arm64-v8a\libsqlite3.so
+
+2 files found for path 'lib/armeabi-v7a/libsqlite3.so'. This version of the Android Gradle Plugin chooses the file from the app or dynamic-feature module, but this can cause unexpected behavior or errors at runtime. Future versions of the Android Gradle Plugin may throw an error in this case.
+Inputs:
+ - C:\Users\hario\OneDrive\Desktop\HELLSING\build\app\intermediates\merged_jni_libs\release\mergeReleaseJniLibFolders\out\armeabi-v7a\libsqlite3.so
+ - C:\Users\hario\.gradle\caches\8.13\transforms\70015bcf4acec37b7cb2bf72dc462a69\transformed\sqlite3-native-library-3.52.0\jni\armeabi-v7a\libsqlite3.so
+
+2 files found for path 'lib/x86_64/libsqlite3.so'. This version of the Android Gradle Plugin chooses the file from the app or dynamic-feature module, but this can cause unexpected behavior or errors at runtime. Future versions of the Android Gradle Plugin may throw an error in this case.
+Inputs:
+ - C:\Users\hario\OneDrive\Desktop\HELLSING\build\app\intermediates\merged_jni_libs\release\mergeReleaseJniLibFolders\out\x86_64\libsqlite3.so
+ - C:\Users\hario\.gradle\caches\8.13\transforms\70015bcf4acec37b7cb2bf72dc462a69\transformed\sqlite3-native-library-3.52.0\jni\x86_64\libsqlite3.so
+
+
+> Task :app:stripReleaseDebugSymbols
+> Task :app:extractReleaseNativeSymbolTables
+> Task :flutter_local_notifications:compileReleaseJavaWithJavac
+> Task :flutter_local_notifications:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :flutter_local_notifications:exportReleaseConsumerProguardFiles UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:javaPreCompileRelease
+> Task :flutter_plugin_android_lifecycle:generateReleaseRFile
+> Task :image_picker_android:generateReleaseResValues
+> Task :app:mergeReleaseNativeDebugMetadata
+> Task :flutter_plugin_android_lifecycle:compileReleaseJavaWithJavac
+> Task :image_picker_android:generateReleaseResources
+> Task :flutter_plugin_android_lifecycle:bundleLibCompileToJarRelease
+> Task :image_picker_android:packageReleaseResources
+> Task :image_picker_android:javaPreCompileRelease
+> Task :flutter_plugin_android_lifecycle:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :image_picker_android:parseReleaseLocalResources
+> Task :flutter_plugin_android_lifecycle:exportReleaseConsumerProguardFiles
+> Task :path_provider_android:generateReleaseResValues
+> Task :image_picker_android:generateReleaseRFile
+> Task :path_provider_android:generateReleaseResources
+> Task :image_picker_android:compileReleaseJavaWithJavac
+> Task :image_picker_android:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :image_picker_android:exportReleaseConsumerProguardFiles UP-TO-DATE
+> Task :path_provider_android:packageReleaseResources
+> Task :shared_preferences_android:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :path_provider_android:parseReleaseLocalResources
+> Task :path_provider_android:javaPreCompileRelease
+> Task :shared_preferences_android:generateReleaseResValues
+> Task :device_info_plus:compileReleaseKotlin
+> Task :device_info_plus:compileReleaseJavaWithJavac NO-SOURCE
+> Task :device_info_plus:mergeReleaseGeneratedProguardFiles
+> Task :path_provider_android:generateReleaseRFile
+> Task :device_info_plus:exportReleaseConsumerProguardFiles
+
+> Task :audioplayers_android:compileReleaseKotlin
+w: file:///C:/Users/hario/AppData/Local/Pub/Cache/hosted/pub.dev/audioplayers_android-5.2.1/android/src/main/kotlin/xyz/luan/audioplayers/AudioplayersPlugin.kt:72:30 'var isSpeakerphoneOn: Boolean' is deprecated. Deprecated in Java.
+w: file:///C:/Users/hario/AppData/Local/Pub/Cache/hosted/pub.dev/audioplayers_android-5.2.1/android/src/main/kotlin/xyz/luan/audioplayers/player/WrappedPlayer.kt:172:22 'var isSpeakerphoneOn: Boolean' is deprecated. Deprecated in Java.
+
+> Task :path_provider_android:compileReleaseJavaWithJavac
+> Task :audioplayers_android:compileReleaseJavaWithJavac NO-SOURCE
+> Task :audioplayers_android:mergeReleaseGeneratedProguardFiles
+> Task :audioplayers_android:exportReleaseConsumerProguardFiles
+> Task :path_provider_android:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :path_provider_android:exportReleaseConsumerProguardFiles UP-TO-DATE
+> Task :shared_preferences_android:generateReleaseResources
+> Task :shared_preferences_android:packageReleaseResources
+> Task :shared_preferences_android:parseReleaseLocalResources
+> Task :shared_preferences_android:javaPreCompileRelease
+> Task :sqlite3_flutter_libs:generateReleaseResValues
+> Task :shared_preferences_android:generateReleaseRFile
+> Task :sqlite3_flutter_libs:generateReleaseResources
+> Task :sqlite3_flutter_libs:packageReleaseResources
+> Task :sqlite3_flutter_libs:parseReleaseLocalResources
+> Task :sqlite3_flutter_libs:javaPreCompileRelease
+> Task :vibration:generateReleaseResValues
+> Task :sqlite3_flutter_libs:generateReleaseRFile
+> Task :vibration:generateReleaseResources
+> Task :sqlite3_flutter_libs:compileReleaseJavaWithJavac
+> Task :sqlite3_flutter_libs:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :sqlite3_flutter_libs:exportReleaseConsumerProguardFiles UP-TO-DATE
+> Task :vibration:packageReleaseResources
+> Task :workmanager_android:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :vibration:parseReleaseLocalResources
+> Task :vibration:javaPreCompileRelease
+> Task :workmanager_android:generateReleaseResValues
+> Task :vibration:generateReleaseRFile
+> Task :workmanager_android:generateReleaseResources
+
+> Task :vibration:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :vibration:mergeReleaseGeneratedProguardFiles
+> Task :vibration:exportReleaseConsumerProguardFiles
+> Task :workmanager_android:packageReleaseResources
+> Task :workmanager_android:javaPreCompileRelease
+> Task :workmanager_android:parseReleaseLocalResources
+> Task :app:buildKotlinToolingMetadata
+> Task :workmanager_android:generateReleaseRFile
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :device_info_plus:writeReleaseAarMetadata
+> Task :audioplayers_android:writeReleaseAarMetadata
+> Task :flutter_local_notifications:writeReleaseAarMetadata
+> Task :flutter_plugin_android_lifecycle:writeReleaseAarMetadata
+> Task :image_picker_android:writeReleaseAarMetadata
+> Task :path_provider_android:writeReleaseAarMetadata
+> Task :shared_preferences_android:writeReleaseAarMetadata
+> Task :sqlite3_flutter_libs:writeReleaseAarMetadata
+> Task :vibration:writeReleaseAarMetadata
+> Task :workmanager_android:writeReleaseAarMetadata
+> Task :app:cleanMergeReleaseAssets UP-TO-DATE
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :audioplayers_android:mergeReleaseShaders
+> Task :audioplayers_android:compileReleaseShaders NO-SOURCE
+> Task :audioplayers_android:generateReleaseAssets UP-TO-DATE
+> Task :audioplayers_android:mergeReleaseAssets
+> Task :app:checkReleaseAarMetadata
+> Task :device_info_plus:mergeReleaseShaders
+> Task :device_info_plus:compileReleaseShaders NO-SOURCE
+> Task :device_info_plus:generateReleaseAssets UP-TO-DATE
+> Task :device_info_plus:mergeReleaseAssets
+> Task :flutter_local_notifications:mergeReleaseShaders
+> Task :flutter_local_notifications:compileReleaseShaders NO-SOURCE
+> Task :flutter_local_notifications:generateReleaseAssets UP-TO-DATE
+> Task :flutter_local_notifications:mergeReleaseAssets
+> Task :flutter_plugin_android_lifecycle:mergeReleaseShaders
+> Task :flutter_plugin_android_lifecycle:compileReleaseShaders NO-SOURCE
+> Task :flutter_plugin_android_lifecycle:generateReleaseAssets UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:mergeReleaseAssets
+> Task :image_picker_android:mergeReleaseShaders
+> Task :image_picker_android:compileReleaseShaders NO-SOURCE
+> Task :image_picker_android:generateReleaseAssets UP-TO-DATE
+> Task :image_picker_android:mergeReleaseAssets
+> Task :path_provider_android:mergeReleaseShaders
+> Task :path_provider_android:compileReleaseShaders NO-SOURCE
+> Task :path_provider_android:generateReleaseAssets UP-TO-DATE
+> Task :path_provider_android:mergeReleaseAssets
+> Task :shared_preferences_android:mergeReleaseShaders
+> Task :shared_preferences_android:compileReleaseShaders NO-SOURCE
+> Task :shared_preferences_android:generateReleaseAssets UP-TO-DATE
+> Task :shared_preferences_android:mergeReleaseAssets
+> Task :sqlite3_flutter_libs:mergeReleaseShaders
+> Task :sqlite3_flutter_libs:compileReleaseShaders NO-SOURCE
+> Task :sqlite3_flutter_libs:generateReleaseAssets UP-TO-DATE
+> Task :sqlite3_flutter_libs:mergeReleaseAssets
+> Task :vibration:mergeReleaseShaders
+> Task :vibration:compileReleaseShaders NO-SOURCE
+> Task :vibration:generateReleaseAssets UP-TO-DATE
+> Task :vibration:mergeReleaseAssets
+> Task :workmanager_android:mergeReleaseShaders
+> Task :workmanager_android:compileReleaseShaders NO-SOURCE
+> Task :workmanager_android:generateReleaseAssets UP-TO-DATE
+> Task :workmanager_android:mergeReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:copyFlutterAssetsRelease
+> Task :app:generateReleaseResValues
+> Task :app:mapReleaseSourceSetPaths
+> Task :app:generateReleaseResources
+> Task :shared_preferences_android:compileReleaseKotlin
+> Task :shared_preferences_android:compileReleaseJavaWithJavac
+> Task :shared_preferences_android:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :shared_preferences_android:exportReleaseConsumerProguardFiles UP-TO-DATE
+> Task :app:packageReleaseResources
+> Task :app:parseReleaseLocalResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :audioplayers_android:extractDeepLinksRelease
+> Task :device_info_plus:extractDeepLinksRelease
+> Task :app:mergeReleaseResources
+> Task :flutter_local_notifications:extractDeepLinksRelease
+> Task :flutter_plugin_android_lifecycle:extractDeepLinksRelease
+> Task :image_picker_android:extractDeepLinksRelease
+> Task :path_provider_android:extractDeepLinksRelease
+> Task :shared_preferences_android:extractDeepLinksRelease
+
+> Task :flutter_plugin_android_lifecycle:processReleaseManifest
+package="io.flutter.plugins.flutter_plugin_android_lifecycle" found in source AndroidManifest.xml: C:\Users\hario\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_plugin_android_lifecycle-2.0.33\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="io.flutter.plugins.flutter_plugin_android_lifecycle" from the source AndroidManifest.xml: C:\Users\hario\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_plugin_android_lifecycle-2.0.33\android\src\main\AndroidManifest.xml.
+
+> Task :audioplayers_android:processReleaseManifest
+package="xyz.luan.audioplayers" found in source AndroidManifest.xml: C:\Users\hario\AppData\Local\Pub\Cache\hosted\pub.dev\audioplayers_android-5.2.1\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="xyz.luan.audioplayers" from the source AndroidManifest.xml: C:\Users\hario\AppData\Local\Pub\Cache\hosted\pub.dev\audioplayers_android-5.2.1\android\src\main\AndroidManifest.xml.
+
+> Task :device_info_plus:processReleaseManifest
+package="dev.fluttercommunity.plus.device_info" found in source AndroidManifest.xml: C:\Users\hario\AppData\Local\Pub\Cache\hosted\pub.dev\device_info_plus-11.5.0\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="dev.fluttercommunity.plus.device_info" from the source AndroidManifest.xml: C:\Users\hario\AppData\Local\Pub\Cache\hosted\pub.dev\device_info_plus-11.5.0\android\src\main\AndroidManifest.xml.
+
+> Task :image_picker_android:processReleaseManifest
+package="io.flutter.plugins.imagepicker" found in source AndroidManifest.xml: C:\Users\hario\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.13+14\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="io.flutter.plugins.imagepicker" from the source AndroidManifest.xml: C:\Users\hario\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.13+14\android\src\main\AndroidManifest.xml.
+
+> Task :flutter_local_notifications:processReleaseManifest
+package="com.dexterous.flutterlocalnotifications" found in source AndroidManifest.xml: C:\Users\hario\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_local_notifications-18.0.1\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.dexterous.flutterlocalnotifications" from the source AndroidManifest.xml: C:\Users\hario\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_local_notifications-18.0.1\android\src\main\AndroidManifest.xml.
+
+> Task :path_provider_android:processReleaseManifest
+package="io.flutter.plugins.pathprovider" found in source AndroidManifest.xml: C:\Users\hario\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.22\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="io.flutter.plugins.pathprovider" from the source AndroidManifest.xml: C:\Users\hario\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.22\android\src\main\AndroidManifest.xml.
+
+> Task :sqlite3_flutter_libs:extractDeepLinksRelease
+
+> Task :shared_preferences_android:processReleaseManifest
+package="io.flutter.plugins.sharedpreferences" found in source AndroidManifest.xml: C:\Users\hario\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_android-2.4.21\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="io.flutter.plugins.sharedpreferences" from the source AndroidManifest.xml: C:\Users\hario\AppData\Local\Pub\Cache\hosted\pub.dev\shared_preferences_android-2.4.21\android\src\main\AndroidManifest.xml.
+
+> Task :vibration:extractDeepLinksRelease
+
+> Task :sqlite3_flutter_libs:processReleaseManifest
+package="eu.simonbinder.sqlite3_flutter_libs" found in source AndroidManifest.xml: C:\Users\hario\AppData\Local\Pub\Cache\hosted\pub.dev\sqlite3_flutter_libs-0.5.42\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="eu.simonbinder.sqlite3_flutter_libs" from the source AndroidManifest.xml: C:\Users\hario\AppData\Local\Pub\Cache\hosted\pub.dev\sqlite3_flutter_libs-0.5.42\android\src\main\AndroidManifest.xml.
+
+> Task :workmanager_android:extractDeepLinksRelease
+
+> Task :vibration:processReleaseManifest
+package="com.benjaminabel.vibration" found in source AndroidManifest.xml: C:\Users\hario\AppData\Local\Pub\Cache\hosted\pub.dev\vibration-2.1.0\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.benjaminabel.vibration" from the source AndroidManifest.xml: C:\Users\hario\AppData\Local\Pub\Cache\hosted\pub.dev\vibration-2.1.0\android\src\main\AndroidManifest.xml.
+
+> Task :workmanager_android:processReleaseManifest
+> Task :device_info_plus:bundleLibCompileToJarRelease
+> Task :audioplayers_android:bundleLibCompileToJarRelease
+> Task :app:processReleaseMainManifest
+> Task :app:outputReleaseAppLinkSettings
+> Task :app:processReleaseManifest
+> Task :path_provider_android:bundleLibCompileToJarRelease
+> Task :sqlite3_flutter_libs:bundleLibCompileToJarRelease
+> Task :flutter_local_notifications:bundleLibCompileToJarRelease
+> Task :image_picker_android:bundleLibCompileToJarRelease
+> Task :vibration:bundleLibCompileToJarRelease
+> Task :app:javaPreCompileRelease
+> Task :app:processReleaseManifestForPackage
+> Task :shared_preferences_android:bundleLibCompileToJarRelease
+> Task :workmanager_android:compileReleaseKotlin
+> Task :workmanager_android:compileReleaseJavaWithJavac NO-SOURCE
+> Task :workmanager_android:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :workmanager_android:exportReleaseConsumerProguardFiles UP-TO-DATE
+> Task :device_info_plus:bundleLibRuntimeToJarRelease
+> Task :audioplayers_android:bundleLibRuntimeToJarRelease
+> Task :flutter_plugin_android_lifecycle:bundleLibRuntimeToJarRelease
+> Task :workmanager_android:bundleLibCompileToJarRelease
+> Task :path_provider_android:bundleLibRuntimeToJarRelease
+> Task :flutter_local_notifications:bundleLibRuntimeToJarRelease
+> Task :sqlite3_flutter_libs:bundleLibRuntimeToJarRelease
+> Task :vibration:bundleLibRuntimeToJarRelease
+> Task :image_picker_android:bundleLibRuntimeToJarRelease
+> Task :app:extractProguardFiles
+> Task :shared_preferences_android:bundleLibRuntimeToJarRelease
+> Task :workmanager_android:bundleLibRuntimeToJarRelease
+> Task :audioplayers_android:processReleaseJavaRes
+> Task :device_info_plus:processReleaseJavaRes
+> Task :flutter_local_notifications:processReleaseJavaRes NO-SOURCE
+> Task :flutter_plugin_android_lifecycle:processReleaseJavaRes NO-SOURCE
+> Task :image_picker_android:processReleaseJavaRes NO-SOURCE
+> Task :path_provider_android:processReleaseJavaRes NO-SOURCE
+> Task :shared_preferences_android:processReleaseJavaRes
+> Task :sqlite3_flutter_libs:processReleaseJavaRes NO-SOURCE
+> Task :vibration:processReleaseJavaRes NO-SOURCE
+> Task :workmanager_android:processReleaseJavaRes
+> Task :app:mergeReleaseStartupProfile UP-TO-DATE
+> Task :app:compressReleaseAssets
+> Task :app:extractReleaseVersionControlInfo
+> Task :audioplayers_android:createFullJarRelease
+> Task :audioplayers_android:extractProguardFiles
+> Task :audioplayers_android:generateReleaseLintModel
+> Task :audioplayers_android:prepareLintJarForPublish
+> Task :device_info_plus:createFullJarRelease
+> Task :device_info_plus:extractProguardFiles
+> Task :device_info_plus:generateReleaseLintModel
+> Task :device_info_plus:prepareLintJarForPublish
+> Task :flutter_local_notifications:createFullJarRelease
+> Task :flutter_local_notifications:extractProguardFiles
+> Task :flutter_local_notifications:generateReleaseLintModel
+> Task :flutter_local_notifications:prepareLintJarForPublish UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:createFullJarRelease
+> Task :flutter_plugin_android_lifecycle:extractProguardFiles
+> Task :flutter_plugin_android_lifecycle:generateReleaseLintModel
+> Task :flutter_plugin_android_lifecycle:prepareLintJarForPublish UP-TO-DATE
+> Task :image_picker_android:createFullJarRelease
+> Task :image_picker_android:extractProguardFiles
+> Task :image_picker_android:generateReleaseLintModel
+> Task :image_picker_android:prepareLintJarForPublish UP-TO-DATE
+> Task :path_provider_android:createFullJarRelease
+> Task :path_provider_android:extractProguardFiles
+> Task :path_provider_android:generateReleaseLintModel
+> Task :path_provider_android:prepareLintJarForPublish UP-TO-DATE
+> Task :shared_preferences_android:createFullJarRelease
+> Task :shared_preferences_android:extractProguardFiles
+> Task :shared_preferences_android:generateReleaseLintModel
+> Task :shared_preferences_android:prepareLintJarForPublish UP-TO-DATE
+> Task :sqlite3_flutter_libs:createFullJarRelease
+> Task :sqlite3_flutter_libs:extractProguardFiles
+> Task :sqlite3_flutter_libs:generateReleaseLintModel
+> Task :sqlite3_flutter_libs:prepareLintJarForPublish UP-TO-DATE
+> Task :vibration:createFullJarRelease
+> Task :vibration:extractProguardFiles
+> Task :app:processReleaseResources
+> Task :vibration:generateReleaseLintModel
+> Task :vibration:prepareLintJarForPublish
+> Task :workmanager_android:createFullJarRelease
+> Task :workmanager_android:extractProguardFiles
+> Task :workmanager_android:generateReleaseLintModel
+> Task :workmanager_android:prepareLintJarForPublish UP-TO-DATE
+> Task :audioplayers_android:stripReleaseDebugSymbols NO-SOURCE
+> Task :audioplayers_android:copyReleaseJniLibsProjectAndLocalJars
+> Task :audioplayers_android:extractDeepLinksForAarRelease
+> Task :audioplayers_android:extractReleaseAnnotations
+> Task :audioplayers_android:mergeReleaseConsumerProguardFiles
+> Task :device_info_plus:stripReleaseDebugSymbols NO-SOURCE
+> Task :device_info_plus:copyReleaseJniLibsProjectAndLocalJars
+> Task :device_info_plus:extractDeepLinksForAarRelease
+> Task :device_info_plus:extractReleaseAnnotations
+> Task :device_info_plus:mergeReleaseConsumerProguardFiles
+> Task :flutter_local_notifications:stripReleaseDebugSymbols NO-SOURCE
+> Task :flutter_local_notifications:copyReleaseJniLibsProjectAndLocalJars
+> Task :flutter_local_notifications:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :flutter_local_notifications:extractReleaseAnnotations
+> Task :flutter_local_notifications:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :image_picker_android:stripReleaseDebugSymbols NO-SOURCE
+> Task :image_picker_android:copyReleaseJniLibsProjectAndLocalJars
+> Task :image_picker_android:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :image_picker_android:extractReleaseAnnotations
+> Task :image_picker_android:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:stripReleaseDebugSymbols NO-SOURCE
+> Task :flutter_plugin_android_lifecycle:copyReleaseJniLibsProjectAndLocalJars
+> Task :flutter_plugin_android_lifecycle:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :image_picker_android:mergeReleaseJavaResource
+> Task :flutter_local_notifications:mergeReleaseJavaResource
+> Task :flutter_plugin_android_lifecycle:extractReleaseAnnotations
+> Task :device_info_plus:mergeReleaseJavaResource
+> Task :audioplayers_android:mergeReleaseJavaResource
+> Task :flutter_local_notifications:syncReleaseLibJars
+> Task :audioplayers_android:syncReleaseLibJars
+> Task :audioplayers_android:bundleReleaseLocalLintAar
+> Task :device_info_plus:syncReleaseLibJars
+> Task :device_info_plus:bundleReleaseLocalLintAar
+> Task :flutter_local_notifications:bundleReleaseLocalLintAar
+> Task :image_picker_android:syncReleaseLibJars
+> Task :image_picker_android:bundleReleaseLocalLintAar
+> Task :flutter_plugin_android_lifecycle:mergeReleaseConsumerProguardFiles
+> Task :path_provider_android:stripReleaseDebugSymbols NO-SOURCE
+> Task :flutter_plugin_android_lifecycle:mergeReleaseJavaResource
+> Task :path_provider_android:copyReleaseJniLibsProjectAndLocalJars
+> Task :flutter_plugin_android_lifecycle:syncReleaseLibJars
+> Task :flutter_plugin_android_lifecycle:bundleReleaseLocalLintAar
+> Task :path_provider_android:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :path_provider_android:extractReleaseAnnotations
+> Task :path_provider_android:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :shared_preferences_android:stripReleaseDebugSymbols NO-SOURCE
+> Task :path_provider_android:mergeReleaseJavaResource
+> Task :shared_preferences_android:copyReleaseJniLibsProjectAndLocalJars
+> Task :path_provider_android:syncReleaseLibJars
+> Task :path_provider_android:bundleReleaseLocalLintAar
+> Task :shared_preferences_android:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :shared_preferences_android:extractReleaseAnnotations
+> Task :shared_preferences_android:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :sqlite3_flutter_libs:stripReleaseDebugSymbols NO-SOURCE
+> Task :sqlite3_flutter_libs:copyReleaseJniLibsProjectAndLocalJars
+> Task :shared_preferences_android:mergeReleaseJavaResource
+> Task :sqlite3_flutter_libs:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :shared_preferences_android:syncReleaseLibJars
+> Task :shared_preferences_android:bundleReleaseLocalLintAar
+> Task :sqlite3_flutter_libs:extractReleaseAnnotations
+> Task :sqlite3_flutter_libs:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :vibration:stripReleaseDebugSymbols NO-SOURCE
+> Task :sqlite3_flutter_libs:mergeReleaseJavaResource
+> Task :vibration:copyReleaseJniLibsProjectAndLocalJars
+> Task :app:compileReleaseKotlin
+> Task :sqlite3_flutter_libs:syncReleaseLibJars
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :app:processReleaseJavaRes
+> Task :app:generateReleaseLintVitalReportModel
+> Task :sqlite3_flutter_libs:bundleReleaseLocalLintAar
+> Task :vibration:extractDeepLinksForAarRelease
+> Task :vibration:extractReleaseAnnotations
+> Task :vibration:mergeReleaseConsumerProguardFiles
+> Task :workmanager_android:stripReleaseDebugSymbols NO-SOURCE
+> Task :workmanager_android:copyReleaseJniLibsProjectAndLocalJars
+> Task :vibration:mergeReleaseJavaResource
+> Task :workmanager_android:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :vibration:syncReleaseLibJars
+> Task :vibration:bundleReleaseLocalLintAar
+> Task :workmanager_android:extractReleaseAnnotations
+> Task :workmanager_android:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :workmanager_android:mergeReleaseJavaResource
+> Task :app:expandReleaseArtProfileWildcards
+> Task :workmanager_android:syncReleaseLibJars
+> Task :workmanager_android:bundleReleaseLocalLintAar
+> Task :audioplayers_android:writeReleaseLintModelMetadata
+> Task :device_info_plus:writeReleaseLintModelMetadata
+> Task :flutter_local_notifications:writeReleaseLintModelMetadata
+> Task :flutter_plugin_android_lifecycle:writeReleaseLintModelMetadata
+> Task :image_picker_android:writeReleaseLintModelMetadata
+> Task :path_provider_android:writeReleaseLintModelMetadata
+> Task :shared_preferences_android:writeReleaseLintModelMetadata
+> Task :sqlite3_flutter_libs:writeReleaseLintModelMetadata
+> Task :vibration:writeReleaseLintModelMetadata
+> Task :workmanager_android:writeReleaseLintModelMetadata
+> Task :audioplayers_android:generateReleaseLintVitalModel
+> Task :device_info_plus:generateReleaseLintVitalModel
+> Task :flutter_local_notifications:generateReleaseLintVitalModel
+> Task :flutter_plugin_android_lifecycle:generateReleaseLintVitalModel
+> Task :image_picker_android:generateReleaseLintVitalModel
+> Task :path_provider_android:generateReleaseLintVitalModel
+> Task :shared_preferences_android:generateReleaseLintVitalModel
+> Task :sqlite3_flutter_libs:generateReleaseLintVitalModel
+> Task :vibration:generateReleaseLintVitalModel
+> Task :workmanager_android:generateReleaseLintVitalModel
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
+> Task :app:validateSigningRelease
+> Task :app:writeReleaseAppMetadata
+> Task :app:writeReleaseSigningConfigVersions
+> Task :audioplayers_android:bundleReleaseAar
+> Task :audioplayers_android:mapReleaseSourceSetPaths
+> Task :app:mergeReleaseJavaResource
+> Task :audioplayers_android:mergeReleaseResources
+> Task :device_info_plus:bundleReleaseAar
+> Task :device_info_plus:mapReleaseSourceSetPaths
+> Task :device_info_plus:mergeReleaseResources
+> Task :flutter_local_notifications:bundleReleaseAar
+> Task :flutter_local_notifications:mapReleaseSourceSetPaths
+> Task :audioplayers_android:verifyReleaseResources
+> Task :flutter_local_notifications:mergeReleaseResources
+> Task :audioplayers_android:assembleRelease
+> Task :flutter_plugin_android_lifecycle:bundleReleaseAar
+> Task :flutter_plugin_android_lifecycle:mapReleaseSourceSetPaths
+> Task :device_info_plus:verifyReleaseResources
+> Task :flutter_local_notifications:verifyReleaseResources
+> Task :flutter_plugin_android_lifecycle:mergeReleaseResources
+> Task :device_info_plus:assembleRelease
+> Task :flutter_local_notifications:assembleRelease
+> Task :image_picker_android:bundleReleaseAar
+> Task :image_picker_android:mapReleaseSourceSetPaths
+> Task :flutter_plugin_android_lifecycle:compileReleaseLibraryResources
+> Task :flutter_plugin_android_lifecycle:verifyReleaseResources
+> Task :image_picker_android:mergeReleaseResources
+> Task :flutter_plugin_android_lifecycle:assembleRelease
+> Task :path_provider_android:bundleReleaseAar
+> Task :path_provider_android:mapReleaseSourceSetPaths
+> Task :image_picker_android:verifyReleaseResources
+> Task :path_provider_android:mergeReleaseResources
+> Task :image_picker_android:assembleRelease
+> Task :shared_preferences_android:bundleReleaseAar
+> Task :shared_preferences_android:mapReleaseSourceSetPaths
+> Task :path_provider_android:verifyReleaseResources
+> Task :shared_preferences_android:mergeReleaseResources
+> Task :path_provider_android:assembleRelease
+> Task :sqlite3_flutter_libs:bundleReleaseAar
+> Task :sqlite3_flutter_libs:mapReleaseSourceSetPaths
+> Task :sqlite3_flutter_libs:mergeReleaseResources
+> Task :vibration:bundleReleaseAar
+> Task :vibration:mapReleaseSourceSetPaths
+> Task :sqlite3_flutter_libs:verifyReleaseResources
+> Task :vibration:mergeReleaseResources
+> Task :sqlite3_flutter_libs:assembleRelease
+> Task :workmanager_android:bundleReleaseAar
+> Task :workmanager_android:mapReleaseSourceSetPaths
+> Task :shared_preferences_android:verifyReleaseResources
+> Task :vibration:verifyReleaseResources
+> Task :workmanager_android:mergeReleaseResources
+> Task :shared_preferences_android:assembleRelease
+> Task :vibration:assembleRelease
+> Task :workmanager_android:verifyReleaseResources
+> Task :workmanager_android:assembleRelease
+> Task :sqlite3_flutter_libs:lintVitalAnalyzeRelease
+> Task :vibration:lintVitalAnalyzeRelease
+> Task :flutter_plugin_android_lifecycle:lintVitalAnalyzeRelease
+> Task :path_provider_android:lintVitalAnalyzeRelease
+> Task :device_info_plus:lintVitalAnalyzeRelease
+> Task :flutter_local_notifications:lintVitalAnalyzeRelease
+> Task :audioplayers_android:lintVitalAnalyzeRelease
+> Task :shared_preferences_android:lintVitalAnalyzeRelease
+> Task :image_picker_android:lintVitalAnalyzeRelease
+> Task :workmanager_android:lintVitalAnalyzeRelease
+> Task :app:lintVitalAnalyzeRelease
+> Task :app:lintVitalReportRelease
+> Task :app:lintVitalRelease
+> Task :app:minifyReleaseWithR8
+> Task :app:convertShrunkResourcesToBinaryRelease
+> Task :app:optimizeReleaseResources
+> Task :app:l8DexDesugarLibRelease
+> Task :app:compileReleaseArtProfile
+> Task :app:packageRelease
+> Task :app:createReleaseApkListingFileRedirect
+> Task :app:assembleRelease
+
+[Incubating] Problems report is available at: file:///C:/Users/hario/OneDrive/Desktop/HELLSING/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.13/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 4m 48s
+444 actionable tasks: 397 executed, 47 up-to-date

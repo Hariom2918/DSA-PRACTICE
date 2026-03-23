@@ -1,0 +1,99 @@
+name: hellsing
+description: "YAMADA — Personal Command System"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Database
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.5
+  path: ^1.9.1
+
+  # UI & Animation
+  flutter_animate: ^4.5.2
+  google_fonts: ^6.2.1
+  fl_chart: ^0.70.2
+
+  # State Management
+  provider: ^6.1.2
+
+  # Notifications
+  flutter_local_notifications: ^18.0.1
+
+  # Background Tasks
+  workmanager: any
+
+  # Utilities
+  image_picker: ^1.1.2
+  table_calendar: ^3.1.2
+  intl: ^0.20.2
+  timezone: ^0.9.4
+  uuid: ^4.5.3
+  shared_preferences: ^2.3.4
+
+  # Haptics & Audio
+  vibration: ^2.0.0
+  audioplayers: ^6.1.0
+  video_player: ^2.11.1
+  flutter_staggered_animations: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.13
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/audio/
+    - assets/videos/
+
+  fonts:
+    - family: Anton
+      fonts:
+        - asset: assets/fonts/Anton-Regular.ttf
+    - family: BarlowCondensed
+      fonts:
+        - asset: assets/fonts/BarlowCondensed-Regular.ttf
+        - asset: assets/fonts/BarlowCondensed-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/BarlowCondensed-SemiBold.ttf
+          weight: 600
+    - family: Barlow
+      fonts:
+        - asset: assets/fonts/Barlow-Regular.ttf
+        - asset: assets/fonts/Barlow-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Barlow-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Barlow-Bold.ttf
+          weight: 700
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  windows:
+    generate: true
+    image_path: "assets/images/y.png"
+    icon_size: 48
+  image_path: "assets/images/y.png"
+  
+  # For Android adaptive icon (Android 8+)
+  adaptive_icon_background: "#CB1E1E"
+  adaptive_icon_foreground: "assets/images/y.png"
+  
+  # Remove old icon background
+  remove_alpha_ios: true
+  background_color: "#CB1E1E"

@@ -1,0 +1,28 @@
+﻿[INFO] Generating build script...
+[INFO] Generating build script completed, took 177ms
+
+[INFO] Initializing inputs
+[INFO] Reading cached asset graph...
+[INFO] Reading cached asset graph completed, took 188ms
+
+[INFO] Checking for updates since last build...
+[INFO] Checking for updates since last build completed, took 714ms
+
+[INFO] Running build...
+[INFO] Running build completed, took 19ms
+
+[INFO] Caching finalized dependency graph...
+[INFO] Caching finalized dependency graph completed, took 86ms
+
+[SEVERE] hive_generator on lib/screens/notes/notes_screen.dart (cached):
+
+This builder requires Dart inputs without syntax errors.
+However, package:hellsing/screens/notes/notes_screen.dart (or an existing part) contains the following errors.
+notes_screen.dart:29:36: Expected to find ';'.
+notes_screen.dart:29:43: Expected an identifier.
+notes_screen.dart:29:43: Unexpected text ';'.
+And 9 more...
+
+Try fixing the errors and re-running the build.
+
+[SEVERE] Failed after 111ms
