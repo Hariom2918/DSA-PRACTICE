@@ -3,7 +3,7 @@ import java.util.Scanner;
 class Linearsearch{
   public static void main(String[] args){
     int n,item,i;
-    int c =0;
+    int c = 0;
 
     Scanner scn = new Scanner(System.in);
     System.out.println("Enter the size of array: ");
@@ -31,6 +31,4 @@ class Linearsearch{
     } else {
     System.out.println("Item does not exist");
     }
-
- }
-}
+  }}
