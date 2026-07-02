@@ -15,7 +15,6 @@ class Solution {
                 j--;
             }
         }
-
     }
 
     public static void main(String[] args){
@@ -28,6 +27,5 @@ class Solution {
         for(int i = 0;i<m+n;i++){
             System.out.println(nums1[i] + "");
         }
-
     }
 }
