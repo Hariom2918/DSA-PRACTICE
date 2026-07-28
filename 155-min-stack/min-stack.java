@@ -8,12 +8,12 @@ class MinStack {
         stack = new Stack<>();
     }
 
-    public void push(int val) {
+    public void push(int value) {
         if (stack.isEmpty()) {
-            stack.push(new int[]{val, val});
+            stack.push(new int[]{value, value});
         } else {
-            int minVal = Math.min(val, stack.peek()[1]);
-            stack.push(new int[]{val, minVal});
+            int minVal = Math.min(value, stack.peek()[1]);
+            stack.push(new int[]{value, minVal});
         }
     }
 
