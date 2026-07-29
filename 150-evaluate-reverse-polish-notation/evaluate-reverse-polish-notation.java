@@ -7,9 +7,7 @@ class Solution {
                 st.push(st.pop() + st.pop());
                 break;
                 case"-":
-                int y = st.pop();
-                int x = st.pop();
-                st.push(x-y);
+                st.push(-st.pop() + st.pop());
                 break;
                 case"*":
                 st.push(st.pop()*st.pop());
