@@ -21,7 +21,6 @@ class Calculator {
 
         JLabel l = new JLabel("Result:");
 
-        // Addition
         add.addActionListener(e -> {
 
             int a = Integer.parseInt(t1.getText());
@@ -30,7 +29,6 @@ class Calculator {
             l.setText("Result: " + (a + b));
         });
 
-        // Subtraction
         sub.addActionListener(e -> {
 
             int a = Integer.parseInt(t1.getText());
@@ -39,7 +37,6 @@ class Calculator {
             l.setText("Result: " + (a - b));
         });
 
-        // Multiplication
         mul.addActionListener(e -> {
 
             int a = Integer.parseInt(t1.getText());
@@ -48,7 +45,6 @@ class Calculator {
             l.setText("Result: " + (a * b));
         });
 
-        // Division
         div.addActionListener(e -> {
 
             int a = Integer.parseInt(t1.getText());
