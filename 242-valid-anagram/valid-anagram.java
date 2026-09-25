@@ -9,6 +9,10 @@ class Solution {
             tc[ch-'a']++;
         }
 
-        return Arrays.equals(sc,tc);
+        for (int i = 0; i < 26; i++) {
+            if (sc[i] != tc[i]) return false;
+        }
+
+        return true;
     }
 }
