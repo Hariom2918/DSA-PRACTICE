@@ -39,4 +39,3 @@
 </ul>
 
 <p>&nbsp;</p>
-<p><strong>Follow up:</strong> Can you solve it using <code>O(1)</code> (i.e. constant) memory?</p>
