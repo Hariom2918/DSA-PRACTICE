@@ -1,4 +1,27 @@
 class Solution {
+    public int carFleet(int target, int[] position, int[] speed) {        
+        double[] cars = new double[target + 1];
+
+        for (int i = 0; i < position.length; i++) {            
+            cars[position[i]] = (double) (target - position[i]) / speed[i];
+        }        
+
+        int fleet = 0;
+        double lastTime = 0;
+
+        for (int i = target; i >= 0; i--) {
+            double time = cars[i];
+
+            if (time > lastTime) {
+                fleet++;
+                lastTime = time;
+            }
+        }
+
+        return fleet;
+    }
+}
+/*class Solution {
     public int carFleet(int target, int[] position, int[] speed) {
 
         int n = position.length;
@@ -25,4 +48,4 @@ class Solution {
         }
         return fleets;
     }
-}
+}*/
