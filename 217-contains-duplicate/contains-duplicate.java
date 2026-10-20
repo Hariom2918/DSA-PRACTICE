@@ -1,6 +1,18 @@
 class Solution {
     public boolean containsDuplicate(int[] nums) {
-        HashMap<Integer,Boolean> s = new HashMap<>();
+        HashSet<Integer> s = new HashSet<>();
+        
+        for(int num:nums){
+            if(s.contains(num)){
+                return true;
+            }
+            s.add(num);
+        }
+        return false;
+    }
+}
+
+/* HashMap<Integer,Boolean> s = new HashMap<>();
         
         for(int num:nums){
             if(s.containsKey(num)){
@@ -8,6 +20,4 @@ class Solution {
             }
             s.put(num,true);
         }
-        return false;
-    }
-}
+        return false;*/
