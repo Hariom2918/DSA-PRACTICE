@@ -14,28 +14,59 @@
  * }
  */
 class Solution {
-    TreeNode first = null, second = null, prev = null;
-
     public void recoverTree(TreeNode root) {
-        inorder(root);
+        TreeNode first = null;
+        TreeNode second = null;
+        TreeNode prev = null;
+        TreeNode curr = root;
 
-        int temp = first.val;
-        first.val = second.val;
-        second.val = temp;
-    }
+        while (curr != null) {
+            if (curr.left == null) {
+                // Visit current node
+                if (prev != null && prev.val > curr.val) {
+                    if (first == null) {
+                        first = prev;
+                    }
+                    second = curr;
+                }
 
-    void inorder(TreeNode root) {
-        if (root == null) return;
+                prev = curr;
+                curr = curr.right;
+            } else {
+                // Find inorder predecessor
+                TreeNode pred = curr.left;
 
-        inorder(root.left);
+                while (pred.right != null && pred.right != curr) {
+                    pred = pred.right;
+                }
 
-        if (prev != null && prev.val > root.val) {
-            if (first == null) first = prev;
-            second = root;
+                if (pred.right == null) {
+                    // Create temporary thread
+                    pred.right = curr;
+                    curr = curr.left;
+                } else {
+                    // Remove temporary thread
+                    pred.right = null;
+
+                    // Visit current node
+                    if (prev != null && prev.val > curr.val) {
+                        if (first == null) {
+                            first = prev;
+                        }
+                        second = curr;
+                    }
+
+                    prev = curr;
+                    curr = curr.right;
+                }
+            }
         }
 
-        prev = root;
-
-        inorder(root.right);
+        // Swap the two misplaced values
+        if (first != null && second != null) {
+            int temp = first.val;
+            first.val = second.val;
+            second.val = temp;
+        }
     }
 }
